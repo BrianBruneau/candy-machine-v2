@@ -78,12 +78,16 @@
   {:else}
     <!-- Menu Bar -->
     {#if HEADER_TITLE}
-      <a
-        href={HEADER_LINK}
-        class="text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
-        >{HEADER_TITLE}</a
-      >
-      <img src={BANNER_LINK} alt="" class=" w-1/2 mx-auto m-5" />
+    <a
+    href={HEADER_LINK}
+    class="header_edit text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
+    >{HEADER_TITLE}</a
+    >
+
+        <img class="nav-social-t" src="/icons/twitter.svg" alt="" />
+        <img class="nav-social-d" src="/icons/discord.svg" alt="" />
+
+        <img src={BANNER_LINK} alt="" class="banner_width mx-auto m-1" />
     {/if}
     <!-- Card -->
     <div
