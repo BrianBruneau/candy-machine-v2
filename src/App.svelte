@@ -16,12 +16,13 @@
 
   /***********************************/
   // Customise the app by changing the following variables.
-  const TITLE = "Shapes";
-  const DESCRTIPTION = "A collection of shapes on the blockchain";
-  const HEADER_TITLE = "shapes.xyz";
-  const HEADER_LINK = "https://lanablocks.xyz";
+  const TITLE = "SØL S8NS";
+  const DESCRTIPTION = "6,666 Unique Devils rising from beneath the Solana Blockchain.";
+  const HEADER_TITLE = "SØL S8N HEADQUARTERS";
+  const HEADER_LINK = "sols8n.com";
   // Your image or GIF needs to be in the /public folder for this to work
-  const IMAGE_LINK = "/example.gif";
+  const IMAGE_LINK = "/gifs8n.gif";
+  const BANNER_LINK = "/banners8n.jpg"
   /***********************************/
 
   const { solana } = window as any;
@@ -82,6 +83,7 @@
         class="text-black tracking-widest underline underline-offset-4 decoration-2 font-mono"
         >{HEADER_TITLE}</a
       >
+      <img src={IMAGE_LINK} alt="" class=" w-1/2 mx-auto m-5" />
     {/if}
     <!-- Card -->
     <div
