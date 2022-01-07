@@ -13,16 +13,17 @@
     getUserBalance,
     existsOwnerSPLToken,
   } from "./lib/state-helpers";
+    
 
   /***********************************/
   // Customise the app by changing the following variables.
   const TITLE = "Welcome, Join us.";
   const DESCRTIPTION = "6,666 Unique Devils rising from beneath the Solana Blockchain.";
-  const HEADER_TITLE = "SØL.S8N HEADQUARTERS";
+  const HEADER_TITLE = "SØL S8N: OFFICIAL MINT ";
   const HEADER_LINK = "sols8n.com";
   // Your image or GIF needs to be in the /public folder for this to work
   const IMAGE_LINK = "/gifs8n.gif";
-  const BANNER_LINK = "/banners8n.jpg"
+  const BANNER_LINK = "/s8n_king.png"
   /***********************************/
 
   const { solana } = window as any;
@@ -70,6 +71,9 @@
 </script>
 
 <main class="h-screen">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
   <!-- Loading Section -->
   {#if siteLoading}
     <div class=" h-full flex">
@@ -87,11 +91,10 @@
         <img class="nav-social-t" src="/icons/twitter.svg" alt="" />
         <img class="nav-social-d" src="/icons/discord.svg" alt="" />
 
-        <img src={BANNER_LINK} alt="" class="banner_width mx-auto m-1" />
     {/if}
     <!-- Card -->
     <div
-      class=" max-w-lg mx-auto bg-white rounded-lg my-12  border-2"
+      class=" main_body  max-w-lg mx-auto bg-white rounded-lg my-12  border-2"
       transition:fade
     >
       <!-- Top Bar -->

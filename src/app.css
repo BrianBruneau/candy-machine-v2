@@ -10,10 +10,10 @@
 }
 
 .banner_width {
-  width: 60%;
+  width: 20%;
   margin-top: 22px;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .banner_width {
     margin-top: 33px;
     width: 85%;
@@ -36,13 +36,60 @@
     margin-top: 33px;
     width: 54%;
   }
-}
+} */
 .header_edit {
+  top: 99px;
   position: relative;
+  font-weight: bolder;
+  font-size: 42px;
+  font-family: 'MedievalSharp', cursive;
+  background: whitesmoke;
+  border: red;
+  border-radius: 5px;
+  border-width: 7px;
+  border-style: double;
+  opacity: 0.9;
 }
 @media only screen and (max-width: 600px) {
   .header_edit {
-    top: 22px;
+    top: 25px;
+    font-weight: bolder;
+    font-size: 22px;
+  }
+ }
+@media only screen and (min-width: 600px) {
+  .header_edit {
+    top: 45px;
+    font-weight: bolder;
+    font-size: 27px;
+  }
+} 
+@media only screen and (min-width: 740px) {
+  .header_edit {
+    top: 55px;
+    font-weight: bolder;
+    font-size: 38px;
+  }
+} 
+@media only screen and (min-width: 1100px) {
+  .header_edit {
+    top: 66px;
+    font-weight: bolder;
+    font-size: 42px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .header_edit {
+    top: 66px;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .header_edit {
+    top: 66px;
+    font-weight: bolder;
+    font-size: 46px;
   }
 }
 .wrapper {
@@ -85,11 +132,133 @@
   }
 }
 
+.main_body {
+  margin-top: 18%;
+
+}
+@media only screen and (max-width: 600px) {
+  .main_body {
+    margin-top: 22%;
+  }
+}
+@media only screen and (min-width: 740px) {
+  .main_body {
+    margin-top: 22%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .main_body {
+    margin-top: 18%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .main_body {
+    margin-top: 15%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .main_body {
+    margin-top: 13%;
+  }
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+}
+body::before {
+  content: "";
+  background-image: url(/public/s8n_roadmap.png);
+  background-size: 34%;
+  background-repeat: round;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.13;
+}
+
 main {
+  position: relative;
+  background-image: url(/public/s8n_banner.png);
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
   text-align: center;
   padding: 1em;
   margin: 0 auto;
 }
+@media only screen and (max-width: 600px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 72% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+ @media only screen and (min-width: 600px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 72% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+ @media only screen and (min-width: 740px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 78% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+ @media only screen and (min-width: 1100px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 63% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+ @media only screen and (min-width: 1440px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 58% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+ @media only screen and (min-width: 1600px) {
+  main {
+    background-image: url(/public/s8n_banner.png);
+    background-size: 48% auto;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+  }
+ }
+
 .lds-hourglass {
   display: inline-block;
   position: relative;
