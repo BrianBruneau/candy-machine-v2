@@ -184,7 +184,7 @@ body {
 }
 body::before {
   content: "";
-  background-image: url(/public/s8n_roadmap.png);
+  background-image: url(/s8n_roadmap.png);
   background-size: 34%;
   background-repeat: round;
   background-position: center;
@@ -198,7 +198,7 @@ body::before {
 
 main {
   position: relative;
-  background-image: url(/public/s8n_banner.png);
+  background-image: url(/s8n_banner.png);
   background-size: 80% auto;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -208,7 +208,7 @@ main {
 }
 @media only screen and (max-width: 600px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 72% auto;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -219,7 +219,7 @@ main {
  }
  @media only screen and (min-width: 600px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 72% auto;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -230,7 +230,7 @@ main {
  }
  @media only screen and (min-width: 740px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 72% auto;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -241,7 +241,7 @@ main {
  }
  @media only screen and (min-width: 1100px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 63% auto;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -252,7 +252,7 @@ main {
  }
  @media only screen and (min-width: 1440px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 66% auto;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -263,7 +263,7 @@ main {
  }
  @media only screen and (min-width: 1600px) {
   main {
-    background-image: url(/public/s8n_banner.png);
+    background-image: url(/s8n_banner.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     background-position-x: center;
