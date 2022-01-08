@@ -88,8 +88,8 @@
     >{HEADER_TITLE}</a
     >
 
-        <img class="nav-social-t" src="/icons/twitter.svg" alt="" />
-        <img class="nav-social-d" src="/icons/discord.svg" alt="" />
+        <a href="https://twitter.com/SOLS8N" target="_blank"><img class="nav-social-t" src="/icons/twitter.svg" alt="" /></a>
+        <a href="https://discord.gg/6rKz7HPu" target="_blank"><img class="nav-social-d" src="/icons/discord.svg" alt="" /></a>
 
     {/if}
     <!-- Card -->
